@@ -1,0 +1,17 @@
+.bottom__wrapper {
+
+}
+.bottom {
+
+}
+@media screen and (min-width: 1024px) {
+    .bottom .list-fl {
+        justify-content: center;
+    }
+    .bottom .item:not(:last-child) {
+        margin-right: 3rem;
+    }
+    .bottom .text {
+        text-align: right;
+    }
+}
